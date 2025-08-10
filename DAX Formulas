@@ -1,0 +1,4 @@
+Total Sales = SUM('Superstore'[Sales])
+Total Profit = SUM('Superstore'[Profit])
+Total Orders = COUNTROWS('Superstore')
+Profit Margin = DIVIDE([Total Profit], [Total Sales])
